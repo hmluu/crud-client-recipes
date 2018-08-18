@@ -1,0 +1,25 @@
+body{
+overflow: hidden;
+scroll-behavior: smooth;
+}
+
+.container {
+  position: absolute;
+    top: 100px;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.eachCard{
+  margin: 75px;
+}
+
+/* #navBar {
+  overflow: hidden;
+  position: sticky; 
+  top: 0;
+  width: 100%; 
+
+} */
